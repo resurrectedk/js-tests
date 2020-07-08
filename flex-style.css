@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/roboto-regular-webfont.woff") format("woff");
+}
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.controls {
+    margin: 10px 0;
+}
+
+.controls .control {
+    display: inline-block;
+    margin-right: 10px;
+    height: 20px;
+
+}
+
+.controls .control label {
+    display: inline-block;
+    height: 20px;
+}
+
+.flex-box {
+    display: flex;
+    width: 584px;
+    min-height: 144px;
+    padding: 20px;
+    border: 2px solid #dddddd;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-direction: row;
+    border-radius: 4px;
+}
+
+.flex-box[data-class="row-reverse"] {
+    flex-direction: row-reverse;
+}
+
+.flex-box[data-class="column"] {
+    flex-direction: column;
+    min-height: 584px;
+}
+
+.flex-box[data-class="column-reverse"] {
+    flex-direction: column-reverse;
+    min-height: 584px;
+}
+
+.flex-item {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.flex-item span {
+    color: white;
+
+}
+
+.item-1 {
+    background-color: #E56399;
+}
+
+.item-2 {
+    background-color: #D3A588;
+}
+
+.item-3 {
+    background-color: #ECE2D0;
+}
+
+.item-4 {
+    background-color: #7FD1B9;
+}
+
+.item-5 {
+    background-color: #7A6563;
+}
