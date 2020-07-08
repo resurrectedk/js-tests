@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="flex-style.css">
+    <title>UI кит проекта РН Банк</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="controls">
+            <div class="control">
+                <input type="radio" name="flex-direction" value="row" checked id="row">
+                <label for="row">row</label>
+            </div>
+            <div class="control">
+                <input type="radio" name="flex-direction" value="row-reverse" id="row-reverse">
+                <label for="row-reverse">row-reverse</label>
+            </div>
+            <div class="control">
+                <input type="radio" name="flex-direction" value="column" id="column">
+                <label for="column">column</label>
+            </div>
+            <div class="control">
+                <input type="radio" name="flex-direction" value="column-reverse" id="column-reverse">
+                <label for="column-reverse">column-reverse</label>
+            </div>
+        </div>
+        <div class="flex-box" data-class="row">
+            <div class="flex-item item-1"><span>1</span></div>
+            <div class="flex-item item-2"><span>2</span></div>
+            <div class="flex-item item-3"><span>3</span></div>
+            <div class="flex-item item-4"><span>4</span></div>
+            <div class="flex-item item-5"><span>5</span></div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
