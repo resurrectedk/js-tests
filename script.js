@@ -1,6 +1,5 @@
 let flexObject = document.querySelector('.flex-box');
 let flexControls = document.querySelectorAll('.control input');
-
 for (let i = 0; i < flexControls.length; i++) {
     let optionName = flexControls[i].value;
     flexControls[i].addEventListener('change', function () {
